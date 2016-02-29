@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Podobno będzie działać");
         System.out.println(a.prosze_dodac(3,4));
         System.out.println("Napiszmy jeszcze coś innego.");
+        System.out.println("A teraz jeszcze coś, żebym mógł zmergować");
     }
 }
