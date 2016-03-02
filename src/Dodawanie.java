@@ -1,7 +1,8 @@
 
-public class Dodawanie {
-	public int Add(int x, int y) {
+public class Dodawanie 
+{
+	public int Add(int x, int y) 
+	{
 		return x + y;
 	}
-	
 }
