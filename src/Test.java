@@ -90,13 +90,13 @@ public class PanelLogowania extends javax.swing.JPanel {
         name = PassField.getText();
         
         if(name.equals(""))
-            ErrorLabel.setText("Musisz podaæ nick!");
+            ErrLabel.setText("Musisz podaæ nick!");
         else
             ErrorLabel.setText("Witaj, " + name + " ¿yczymy powodzenia. ");
     }                                     
 
     // Variables declaration - do not modify                     
-    private javax.swing.JLabel ErrorLabel;
+    private javax.swing.JLabel ErrLabel;
     private javax.swing.JLabel HeadLabel;
     private javax.swing.JButton OkButton;
     private javax.swing.JTextField PassField;
